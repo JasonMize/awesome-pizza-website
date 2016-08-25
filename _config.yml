@@ -1,1 +1,8 @@
 title: Awesome Pizza
+baseurl: /awesome-pizza-website
+
+menu: menu.html
+location: location.html
+about: about.html
+contact: contact.html
+blog: blog.html 
