@@ -1,0 +1,13 @@
+body {
+	padding-top: 70px;
+}
+
+.jumbotron {
+	margin-top: -19px;
+	text-align: center;
+	border: 1px solid black;
+}
+
+.pizza-image {
+	margin: auto;
+}
