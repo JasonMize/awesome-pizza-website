@@ -11,3 +11,7 @@ body {
 .pizza-image {
 	margin: auto;
 }
+
+.social-list li {
+	margin: 20px 0;
+}
