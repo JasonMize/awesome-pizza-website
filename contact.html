@@ -2,6 +2,41 @@
 layout: page
 title: Contact
 ---
-		<a href="https://www.paypal.com/cgi-bin/webscr?business=jasonemize@gmail.com&cmd=_xclick&currency_code=USD&amount=20.00&item_name=Pizza%21">Thank you for your order! Pay here.</a>
+<a href="https://www.paypal.com/cgi-bin/webscr?business=jasonemize@gmail.com&cmd=_xclick&currency_code=USD&amount=20.00&item_name=Pizza%21">Thank you for your order! Pay here.</a>
 
-		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdtvCKLUrZkzb8r_Yna0h-2SxUSRa7J5q3Rli_1KRw-VpvY0g/viewform?embedded=true" width="700" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<form class="form-inline" action="https://formspree.io/jasonemize@gmail.com" method="post">
+	<ul>
+		<li>
+			<div class="form-group">
+				<label for="name">What is your name?</label>
+				<input type="text" class="form-control" id="name" placeholder = "Name">
+			</div>			
+		</li>
+		<li>
+			<div class="form-group">
+				<label for="phone">What is your phone number?</label>
+				<input type="text" class="form-control" id="phone" placeholder = "Phone Number">
+			</div>			
+		</li>
+		<li>
+			<label>
+				What is your reason for contacting us?
+			</label>
+			<div class="radio">
+				<label>
+					<input type="radio" name="whyContact" id="whyContact1" value="option1">
+					Comment
+				</label>
+			</div>
+			<div class="radio">
+				<label>
+					<input type="radio" name="whyContact" id="whyContact2" value="option2">
+					Order Pizza
+				</label>
+			</div>
+			<textarea class="form-control" rows="3"></textarea>
+		</li>
+	</ul>
+	<button type="submit" class="btn btn-default">Submit</button>
+
+</form>
