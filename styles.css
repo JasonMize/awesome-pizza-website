@@ -5,7 +5,6 @@ body {
 .jumbotron {
 	margin-top: -19px;
 	text-align: center;
-	border: 1px solid black;
 }
 
 .pizza-image {
@@ -18,12 +17,13 @@ body {
 
 .indexInfo {
 	background-color: #cccccc;
-	margin: 15px 0;
+	margin: 10px 0;
 }
 
 .indexInfoSect {
 	background-color: #ffffff;
-	padding: 0 10px;
+	padding: 0px 10px;
 	height: 100%;
 	margin-bottom: 10px;
+	min-height: 200px; 
 }
